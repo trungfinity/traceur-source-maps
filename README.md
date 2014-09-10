@@ -147,14 +147,14 @@ This module is released under [MIT license][url-license].
 
 [//]: # (Repository meta information)
 [url-npm]: https://npmjs.org/package/traceur-source-maps
-[img-npm]: http://img.shields.io/npm/v/traceur-source-maps.svg
-[img-downloads]: http://img.shields.io/npm/dm/traceur-source-maps.svg
+[img-npm]: http://img.shields.io/npm/v/traceur-source-maps.svg?style=flat
+[img-downloads]: http://img.shields.io/npm/dm/traceur-source-maps.svg?style=flat
 [url-gratipay]: https://gratipay.com/meoguru
-[img-gratipay]: http://img.shields.io/gratipay/meoguru.svg
+[img-gratipay]: http://img.shields.io/gratipay/meoguru.svg?style=flat
 [url-travis]: https://travis-ci.org/meoguru/traceur-source-maps
-[img-travis]: http://img.shields.io/travis/meoguru/traceur-source-maps.svg
+[img-travis]: http://img.shields.io/travis/meoguru/traceur-source-maps.svg?style=flat
 [url-coveralls]: https://coveralls.io/r/meoguru/traceur-source-maps
-[img-coveralls]: http://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg
+[img-coveralls]: http://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg?style=flat
 
 [//]: # (Authors and contributors URLs)
 [url-meoguru]: http://meo.guru

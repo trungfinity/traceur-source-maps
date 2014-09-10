@@ -26,6 +26,7 @@
     "traceur": "0.0.61"
   },
   "scripts": {
-    "test": "node node_modules/.bin/gulp test"
+    "test": "node node_modules/.bin/gulp test",
+    "coveralls": "node node_modules/.bin/gulp coveralls"
   }
 }
