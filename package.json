@@ -1,0 +1,31 @@
+{
+  "name": "traceur-source-maps",
+  "version": "1.0.0",
+  "description": "Provides source map for Node.js files when using Traceur on the fly.",
+  "keywords": [
+    "traceur",
+    "es6",
+    "source map"
+  ],
+  "readmeFilename": "README.md",
+  "author": "Meo <i@meo.guru> (http://meo.guru)",
+  "license": "MIT",
+  "repository": "meoguru/traceur-source-maps",
+  "dependencies": {
+    "source-map-support": "^0.2.7"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.8",
+    "gulp-coveralls": "^0.1.3",
+    "gulp-istanbul": "^0.3.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.1.0",
+    "jshint-stylish": "^0.4.0",
+    "mocha": "^1.21.4",
+    "traceur": "0.0.61"
+  },
+  "scripts": {
+    "test": "node node_modules/.bin/gulp test"
+  }
+}
