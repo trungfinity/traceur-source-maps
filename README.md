@@ -17,7 +17,7 @@ Here comes this module to solve that problem: it provides source map for
 
 ## Installation
 
-This module can be installed easily with `npm`:
+This module can be installed easily with [npm][url-npm]:
 
 ```sh
 $ npm install traceur-source-maps
@@ -34,8 +34,8 @@ var traceur = require('traceur');
 
 require('traceur-source-maps').install(traceur);
 
-traceur.require.makeDefault(function (filename) {
-  return !~filename.indexOf('node_modules');
+traceur.require.makeDefault(function (filePath) {
+  return !~filePath.indexOf('node_modules');
 });
 // There is no need to pass `{ sourceMaps: true }` as options,
 // source mapping is always enabled after install

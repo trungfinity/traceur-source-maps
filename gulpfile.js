@@ -8,7 +8,11 @@ var chai = require('chai');
 var coveralls = require('gulp-coveralls');
 
 gulp.task('lint', function () {
-  gulp.src([ 'index.js', 'test/**/*.js', 'gulpfile.js' ])
+  return gulp.src([
+      'lib/**/*.js',
+      'test/**/*.js',
+      'gulpfile.js'
+    ])
     .pipe(jshint())
     .pipe(jshint.reporter('jshint-stylish'));
 });
@@ -16,10 +20,13 @@ gulp.task('lint', function () {
 gulp.task('test', [ 'lint' ], function (cb) {
   global.expect = chai.expect;
 
-  gulp.src([ 'index.js' ])
+  gulp.src([ 'lib/**/*.js' ])
     .pipe(istanbul())
     .on('finish', function () {
-      gulp.src([ 'test/*.js' ])
+      gulp.src([
+          'test/**/*.js',
+          '!test/resources/**/*.js'
+        ])
         .pipe(mocha())
         .pipe(istanbul.writeReports())
         .on('end', cb);
@@ -27,6 +34,6 @@ gulp.task('test', [ 'lint' ], function (cb) {
 });
 
 gulp.task('coveralls', [ 'test' ], function () {
-  gulp.src('coverage/lcov.info')
+  return gulp.src('coverage/lcov.info')
     .pipe(coveralls());
 });

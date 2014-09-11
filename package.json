@@ -25,6 +25,7 @@
     "mocha": "^1.21.4",
     "traceur": "0.0.61"
   },
+  "main": "lib/traceur-source-maps.js",
   "scripts": {
     "test": "node node_modules/.bin/gulp test",
     "coveralls": "node node_modules/.bin/gulp coveralls"
