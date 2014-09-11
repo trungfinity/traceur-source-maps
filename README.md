@@ -34,12 +34,11 @@ var traceur = require('traceur');
 
 require('traceur-source-maps').install(traceur);
 
-traceur.require.makeDefault(
-  function (filename) {
-    return !~filename.indexOf('node_modules');
-  },
-  { sourceMaps: true }
-);
+traceur.require.makeDefault(function (filename) {
+  return !~filename.indexOf('node_modules');
+});
+// There is no need to pass `{ sourceMaps: true }` as options,
+// source mapping is always enabled after install
 
 require('./main');
 ```
