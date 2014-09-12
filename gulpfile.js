@@ -19,7 +19,7 @@ gulp.task('lint', function () {
     .pipe(jshint.reporter('fail'));
 });
 
-gulp.task('test', [ 'lint' ], function (cb) {
+gulp.task('test', function (cb) {
   global.expect = chai.expect;
 
   gulp.src([ 'lib/**/*.js' ])
@@ -35,7 +35,7 @@ gulp.task('test', [ 'lint' ], function (cb) {
     });
 });
 
-gulp.task('coveralls', [ 'test' ], function () {
+gulp.task('coveralls', [ 'lint', 'test' ], function () {
   return gulp.src('coverage/lcov.info')
     .pipe(coveralls());
 });

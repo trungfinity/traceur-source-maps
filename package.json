@@ -16,7 +16,7 @@
   "main": "lib/traceur-source-maps.js",
   "repository": "meoguru/traceur-source-maps",
   "scripts": {
-    "test": "node node_modules/.bin/gulp test",
+    "test": "node node_modules/.bin/gulp lint test",
     "coveralls": "node node_modules/.bin/gulp coveralls"
   },
   "dependencies": {

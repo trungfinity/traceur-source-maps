@@ -129,11 +129,9 @@ This module is released under [MIT license][repo-license].
 [//]: # (Site URLs)
 [url-node]: http://nodejs.org
 [url-npm]: https://www.npmjs.org/
-[url-traceur]: https://github.com/google/traceur-compiler
 [url-editorconfig]: http://editorconfig.org
 [url-jshint-docs]: http://www.jshint.com/docs
-
-[//]: # (External repository URLs)
+[url-traceur]: https://github.com/google/traceur-compiler
 [url-source-map-support]: https://github.com/evanw/node-source-map-support
 
 [//]: # (Repository URLs and resources)
