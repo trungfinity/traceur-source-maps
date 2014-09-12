@@ -1,6 +1,6 @@
 {
   "name": "traceur-source-maps",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides source map for Node.js files when using Traceur on the fly.",
   "keywords": [
     "traceur",
