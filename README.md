@@ -1,15 +1,15 @@
 # Traceur source maps
 
-[![Build status][img-travis]][url-travis]
-[![Coveralls status][img-coveralls]][url-coveralls]
-[![Dependency status][img-deps]][url-deps]
-[![Support us][img-gratipay]][url-gratipay]
+[![NPM version][meta-img-npm]][meta-url-npm]
+[![Build status][meta-img-travis]][meta-url-travis]
+[![Coveralls status][meta-img-coveralls]][meta-url-coveralls]
+[![Support us][meta-img-gratipay]][meta-url-gratipay]
 
 When using [Traceur][url-traceur] as a command-line utility to transpile
 [Node.js][url-node] source code, it provides `--source-maps` option to
-create source map files. But when using at runtime by requiring `traceur`
-module to live-transpile files, [Traceur][url-traceur] lacks the ability
-to reports correct stack trace.
+create source map files. But when using at runtime by requiring
+[traceur][url-traceur] module to live-transpile files, [Traceur][url-traceur]
+lacks the ability to reports correct stack trace.
 
 Here comes this module to solve that problem: it provides source map for
 [Node.js][url-node] files when using [Traceur][url-traceur] on the fly.
@@ -96,12 +96,12 @@ with similar features) to provide source mapping.
 * This module has been tested to run properly with [Traceur][url-traceur]
 version **0.0.61** (latest version at the time of writing). It could be broken
 in the future if [Traceur][url-traceur] introduces non backward-compatible
-changes. In that circumstance, feel free to [create new issue][url-new-issue]
-or [create a pull request][url-pull-request].
+changes. In that circumstance, feel free to [create new issue][repo-url-new-issue]
+or [create a pull request][repo-url-pull-request].
 
 ## Contributing
 
-Before [create a pull request][url-pull-request], make sure that you:
+Before [create a pull request][repo-url-pull-request], make sure that you:
 
 * Followed coding convention as described in
 **[.editorconfig][repo-editorconfig]** or **[.jshintrc][repo-jshintrc]** file
@@ -122,9 +122,9 @@ To execute all tests, simply run:
 
 ## License
 
-This module is released under [MIT license][url-license].
+This module is released under [MIT license][repo-license].
 
-[![Analytics][img-ga]][url-ga]
+[![Analytics][meta-img-ga]][meta-url-ga]
 
 [//]: # (Site URLs)
 [url-node]: http://nodejs.org
@@ -136,27 +136,25 @@ This module is released under [MIT license][url-license].
 [//]: # (External repository URLs)
 [url-source-map-support]: https://github.com/evanw/node-source-map-support
 
-[//]: # (Repository URLs)
-[url-new-issue]: https://github.com/meoguru/traceur-source-maps/issues/new
-[url-pull-request]: https://github.com/meoguru/traceur-source-maps/pulls
-[url-license]: https://github.com/meoguru/traceur-source-maps/blob/master/LICENSE
-
-[//]: # (Repository resources)
+[//]: # (Repository URLs and resources)
+[repo-url-new-issue]: https://github.com/meoguru/traceur-source-maps/issues/new
+[repo-url-pull-request]: https://github.com/meoguru/traceur-source-maps/pulls
+[repo-license]: https://github.com/meoguru/traceur-source-maps/blob/master/LICENSE
 [repo-editorconfig]: https://github.com/meoguru/traceur-source-maps/blob/master/.editorconfig
 [repo-jshintrc]: https://github.com/meoguru/traceur-source-maps/blob/master/.jshintrc
 [repo-test-res]: https://github.com/meoguru/traceur-source-maps/tree/master/test/resources
 
 [//]: # (Repository meta information)
-[url-travis]: https://travis-ci.org/meoguru/traceur-source-maps
-[img-travis]: https://img.shields.io/travis/meoguru/traceur-source-maps.svg?style=flat
-[url-coveralls]: https://coveralls.io/r/meoguru/traceur-source-maps
-[img-coveralls]: https://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg?style=flat
-[url-deps]: https://npmjs.org/package/traceur-source-maps
-[img-deps]: http://img.shields.io/david/meoguru/traceur-source-maps.svg?style=flat
-[url-gratipay]: https://gratipay.com/meoguru
-[img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
-[url-ga]: https://github.com/igrigorik/ga-beacon
-[img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/repo/README.md
+[meta-url-npm]: https://npmjs.org/package/traceur-source-maps
+[meta-img-npm]: https://img.shields.io/npm/v/traceur-source-maps.svg?style=flat
+[meta-url-travis]: https://travis-ci.org/meoguru/traceur-source-maps
+[meta-img-travis]: https://img.shields.io/travis/meoguru/traceur-source-maps.svg?style=flat
+[meta-url-coveralls]: https://coveralls.io/r/meoguru/traceur-source-maps
+[meta-img-coveralls]: https://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg?style=flat
+[meta-url-gratipay]: https://gratipay.com/meoguru
+[meta-img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
+[meta-url-ga]: https://github.com/igrigorik/ga-beacon
+[meta-img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/repo/README.md
 
 [//]: # (Authors and contributors URLs)
 [url-meoguru]: http://meo.guru
