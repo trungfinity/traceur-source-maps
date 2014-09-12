@@ -4,8 +4,9 @@ var gulp = require('gulp');
 var jshint = require('gulp-jshint');
 var istanbul = require('gulp-istanbul');
 var mocha = require('gulp-mocha');
-var chai = require('chai');
 var coveralls = require('gulp-coveralls');
+
+var chai = require('chai');
 
 gulp.task('lint', function () {
   return gulp.src([
@@ -14,7 +15,8 @@ gulp.task('lint', function () {
       'gulpfile.js'
     ])
     .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'));
+    .pipe(jshint.reporter('jshint-stylish'))
+    .pipe(jshint.reporter('fail'));
 });
 
 gulp.task('test', [ 'lint' ], function (cb) {
