@@ -3,7 +3,7 @@
 describe('traceur-source-maps', function () {
   it('should report correct line number where error occurred in stack trace', function () {
     try {
-      require('./resources/bootstrap');
+      require('../resources/bootstrap');
     }
     catch (err) {
       expect(err).to.have.property('stack')
