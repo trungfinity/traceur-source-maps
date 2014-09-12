@@ -1,19 +1,18 @@
 # Traceur source maps
 
-[![NPM version][img-npm]][url-npm]
-[![Downloads][img-downloads]][url-npm]
-[![Support us][img-gratipay]][url-gratipay]
 [![Build status][img-travis]][url-travis]
 [![Coveralls status][img-coveralls]][url-coveralls]
+[![Dependency status][img-deps]][url-deps]
+[![Support us][img-gratipay]][url-gratipay]
 
 When using [Traceur][url-traceur] as a command-line utility to transpile
-[Node.js][url-nodejs] source code, it provides `--source-maps` option to
+[Node.js][url-node] source code, it provides `--source-maps` option to
 create source map files. But when using at runtime by requiring `traceur`
 module to live-transpile files, [Traceur][url-traceur] lacks the ability
 to reports correct stack trace.
 
 Here comes this module to solve that problem: it provides source map for
-[Node.js][url-nodejs] files when using [Traceur][url-traceur] on the fly.
+[Node.js][url-node] files when using [Traceur][url-traceur] on the fly.
 
 ## Installation
 
@@ -63,7 +62,7 @@ export function hi() {
 }
 ```
 
-Run **bootstrap.js** using [Node.js][url-nodejs], notice the stack trace
+Run **bootstrap.js** using [Node.js][url-node], notice the stack trace
 reports correct line number where the error occurred (line 6 of **greet.js**).
 
 ```sh
@@ -128,7 +127,8 @@ This module is released under [MIT license][url-license].
 [![Analytics][img-ga]][url-ga]
 
 [//]: # (Site URLs)
-[url-nodejs]: http://nodejs.org
+[url-node]: http://nodejs.org
+[url-npm]: https://www.npmjs.org/
 [url-traceur]: https://github.com/google/traceur-compiler
 [url-editorconfig]: http://editorconfig.org
 [url-jshint-docs]: http://www.jshint.com/docs
@@ -147,17 +147,16 @@ This module is released under [MIT license][url-license].
 [repo-test-res]: https://github.com/meoguru/traceur-source-maps/tree/master/test/resources
 
 [//]: # (Repository meta information)
-[url-npm]: https://npmjs.org/package/traceur-source-maps
-[img-npm]: https://img.shields.io/npm/v/traceur-source-maps.svg?style=flat
-[img-downloads]: https://img.shields.io/npm/dm/traceur-source-maps.svg?style=flat
-[url-gratipay]: https://gratipay.com/meoguru
-[img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
 [url-travis]: https://travis-ci.org/meoguru/traceur-source-maps
 [img-travis]: https://img.shields.io/travis/meoguru/traceur-source-maps.svg?style=flat
 [url-coveralls]: https://coveralls.io/r/meoguru/traceur-source-maps
 [img-coveralls]: https://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg?style=flat
+[url-deps]: https://npmjs.org/package/traceur-source-maps
+[img-deps]: http://img.shields.io/david/meoguru/traceur-source-maps.svg?style=flat
+[url-gratipay]: https://gratipay.com/meoguru
+[img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
 [url-ga]: https://github.com/igrigorik/ga-beacon
-[img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/traceur-source-maps/readme
+[img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/repo/README.md
 
 [//]: # (Authors and contributors URLs)
 [url-meoguru]: http://meo.guru

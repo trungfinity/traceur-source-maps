@@ -1,6 +1,5 @@
 # OS meta files
 .DS_Store
-Thumbs.db
 
 # Dependencies and `npm` stuffs
 /node_modules/
