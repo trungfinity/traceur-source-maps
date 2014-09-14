@@ -18,14 +18,5 @@
   "esnext": true,
   "expr": true,
   "proto": true,
-  "node": true,
-  "predef": [
-    "describe",
-    "it",
-    "before",
-    "beforeEach",
-    "after",
-    "afterEach",
-    "expect"
-  ]
+  "node": true
 }
