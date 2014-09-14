@@ -85,8 +85,6 @@ Error: Call me maybe!
     at Object.<anonymous> (/some/dir/bootstrap.js:12:1)
 ```
 
-An almost identical, in-source-code example can be found [here][repo-test-res].
-
 ## Compatibility
 
 * This module conflicts with all source code which uses
@@ -140,7 +138,6 @@ This module is released under [MIT license][repo-license].
 [repo-license]: https://github.com/meoguru/traceur-source-maps/blob/master/LICENSE
 [repo-editorconfig]: https://github.com/meoguru/traceur-source-maps/blob/master/.editorconfig
 [repo-jshintrc]: https://github.com/meoguru/traceur-source-maps/blob/master/.jshintrc
-[repo-test-res]: https://github.com/meoguru/traceur-source-maps/tree/master/test/resources
 
 [//]: # (Repository meta information)
 [meta-url-npm]: https://npmjs.org/package/traceur-source-maps
