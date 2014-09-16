@@ -27,7 +27,9 @@ gulp.task('lint', function () {
 
 gulp.task('test', function (cb) {
   gulp.src(path.code)
-    .pipe($.istanbul())
+    .pipe($.istanbul({
+      includeUntested: true
+    }))
     .on('finish', function () {
       test(gulp.src(path.test))
         .pipe($.istanbul.writeReports())
