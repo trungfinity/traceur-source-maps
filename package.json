@@ -39,6 +39,6 @@
     "traceur": "0.0.61"
   },
   "peerDependencies": {
-    "traceur": "0.0.61"
+    "traceur": ">= 0.0.61 < 0.1.0"
   }
 }
