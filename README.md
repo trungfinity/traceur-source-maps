@@ -92,7 +92,7 @@ Error: Call me maybe!
 with similar features) to provide source mapping.
 
 * This module has been tested to run properly with [Traceur][url-traceur]
-version **0.0.61** (latest version at the time of writing). It could be broken
+version **0.0.72** (latest version at the time of writing). It could be broken
 in the future if [Traceur][url-traceur] introduces non backward-compatible
 changes. In that circumstance, feel free to [create new issue][repo-url-new-issue]
 or [create a pull request][repo-url-pull-request].

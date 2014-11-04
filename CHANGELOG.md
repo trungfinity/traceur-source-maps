@@ -9,7 +9,7 @@ Bug fixes:
 Features:
 
 * Embeds source map directly in Node.js files for using with Chrome debugger or `node-inspector`.
-* Allows working with upcoming Traceur version instead of a fixed version (0.0.61).
+* Allows working with upcoming Traceur versions instead of a fixed version.
 
 # 1.0.0 (2014-09-11)
 
