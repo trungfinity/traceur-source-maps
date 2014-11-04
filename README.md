@@ -1,4 +1,4 @@
-# Traceur source maps
+# traceur-source-maps
 
 [![NPM version][meta-img-npm]][meta-url-npm]
 [![Build status][meta-img-travis]][meta-url-travis]
