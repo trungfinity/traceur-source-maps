@@ -25,18 +25,18 @@
   },
   "devDependencies": {
     "chai": "^1.9.1",
-    "gulp": "^3.8.8",
+    "gulp": "^3.8.10",
     "gulp-coveralls": "^0.1.3",
     "gulp-istanbul": "^0.3.0",
-    "gulp-jshint": "^1.8.4",
-    "gulp-load-plugins": "^0.6.0",
+    "gulp-jshint": "^1.9.0",
+    "gulp-load-plugins": "^0.7.1",
     "gulp-mocha": "^1.1.0",
-    "gulp-notify": "^1.6.0",
+    "gulp-notify": "^2.0.0",
     "gulp-util": "^3.0.1",
     "gulp-watch": "^1.0.3",
-    "jshint-stylish": "^0.4.0",
-    "mocha": "^1.21.4",
-    "traceur": "0.0.61"
+    "jshint-stylish": "^1.0.0",
+    "mocha": "^2.0.1",
+    "traceur": ">= 0.0.61 < 0.1.0"
   },
   "peerDependencies": {
     "traceur": ">= 0.0.61 < 0.1.0"
