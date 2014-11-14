@@ -122,8 +122,6 @@ To execute all tests, simply run:
 
 This module is released under [MIT license][repo-license].
 
-[![Analytics][meta-img-ga]][meta-url-ga]
-
 [//]: # (Site URLs)
 [url-node]: http://nodejs.org
 [url-npm]: https://www.npmjs.org/
@@ -148,8 +146,6 @@ This module is released under [MIT license][repo-license].
 [meta-img-coveralls]: https://img.shields.io/coveralls/meoguru/traceur-source-maps/master.svg?style=flat
 [meta-url-gratipay]: https://gratipay.com/meoguru
 [meta-img-gratipay]: https://img.shields.io/gratipay/meoguru.svg?style=flat
-[meta-url-ga]: https://github.com/igrigorik/ga-beacon
-[meta-img-ga]: https://ga-beacon.appspot.com/UA-54698248-1/repo/README.md
 
 [//]: # (Authors and contributors URLs)
 [url-meoguru]: http://meo.guru
